@@ -11,10 +11,10 @@ class Config:
 
     PICS = (environ.get('PICS', 'https://graph.org/file/e223aea8aca83e99162bb.jpg'))
     
-    DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://0qxwx42ukf:oxfFP9wSRVYt7awV@cluster0.abjqxfe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://e6si4kxfhr:<db_password>@cluster0.j26ea.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
     
-    LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
+    LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002050604893'))
     FORCE_SUB_CHANNEL = environ.get("FORCE_SUB_CHANNEL", "https://t.me/+bnmbjw-mkckyNTc1") # FORCE SUB channel link 
     FORCE_SUB_ON = environ.get("FORCE_SUB_ON", "True")  # FORCE SUB ON - OFF
 
